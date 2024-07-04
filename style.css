@@ -1,16 +1,22 @@
+
+
+
 .id1 {
     box-shadow: 10px 10px 8px #888888;
   }
           .id1 {
-              background-image: linear-gradient(to right, black, white);
-              border-left: solid 30px;
+              background-image: url(../asset/pngegg.png);
+              background-repeat: no-repeat;
+              background-size: cover;
+            border-left: solid 30px;
               border-color: rgb(228, 228, 232);
               border-radius: 2%;
               padding-left: 10%;
               padding-top: 2%;
               padding-bottom: 2%;
-            width: 600px;
-            margin: 60px;
+            /*width: 600px;
+            margin: 60px; */
+            height: 600px;
             margin-left: auto;
             margin-right: auto;
           }
@@ -28,13 +34,13 @@ font-weight: lighter;
         font-size: 24px;
 
 
+
           }
           .btn-parent{
             margin: 60px;
             margin-left: auto;
             margin-right: auto;
         text-align: center;
-        font-size: 24px;
         
 
 
