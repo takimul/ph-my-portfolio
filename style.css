@@ -1,13 +1,17 @@
 
 
 
-.id1 {
+#id1 {
     box-shadow: 10px 10px 8px #888888;
   }
-          .id1 {
+          #id1 {
               background-image: url(../asset/pngegg.png);
               background-repeat: no-repeat;
               background-size: cover;
+              background-position: center;
+              clip-path: polygon(30% 0%, 70% 0%, 100% 10%, 100% 89%, 70% 100%, 30% 100%, 0 100%, 0 0);
+              margin-left: 10%;
+              margin-right: 10%;
             border-left: solid 30px;
               border-color: rgb(228, 228, 232);
               border-radius: 2%;
@@ -17,8 +21,10 @@
             /*width: 600px;
             margin: 60px; */
             height: 600px;
-            margin-left: auto;
-            margin-right: auto;
+            /*margin-left: auto;
+            margin-right: auto;*/
+            border-style: solid;
+            border-radius: 10px;
           }
           h1{
 font-style: italic;
@@ -36,12 +42,14 @@ font-weight: lighter;
 
 
           }
-          .btn-parent{
-            margin: 60px;
-            margin-left: auto;
-            margin-right: auto;
-        text-align: center;
+          #btn-parent{
+            margin: 20px 250px;
+            
+        /*text-align: center;*/
         
 
 
+          }
+          .btn1:hover{
+            background-color: aqua;
           }
