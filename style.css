@@ -11,6 +11,8 @@
               padding-bottom: 2%;
             width: 600px;
             margin: 60px;
+            margin-left: auto;
+            margin-right: auto;
           }
           h1{
 font-style: italic;
