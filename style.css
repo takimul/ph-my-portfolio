@@ -2,13 +2,18 @@
     box-shadow: 10px 10px 8px #888888;
   }
           div {
-              background-color: aqua;
+              background-color: rgb(82, 86, 86);
               border-left: solid 30px;
-              border-color: blue;
+              border-color: rgb(228, 228, 232);
               border-radius: 2%;
               padding-left: 10%;
               padding-top: 2%;
               padding-bottom: 2%;
             width: 600px;
             margin: 60px;
+          }
+          h1{
+font-style: italic;
+font-weight: lighter;
+
           }
